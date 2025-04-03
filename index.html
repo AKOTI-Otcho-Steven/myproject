@@ -12,29 +12,46 @@
         <p class="mt-2 text-lg">Vivez une expérience féerique avec nos licornes disponibles à la location.</p>
     </header>
     
-    <section class="container mx-auto px-6 py-10">
-        <div class="grid md:grid-cols-3 gap-6">
-            <div class="bg-white text-gray-800 rounded-lg shadow-lg p-5 text-center">
-                <img src="https://source.unsplash.com/300x200/?unicorn" alt="Licorne" class="rounded-md mx-auto">
-                <h2 class="text-2xl font-semibold mt-3">Licorne Arc-en-Ciel</h2>
-                <p class="mt-2">Éblouissante et joyeuse, idéale pour les fêtes et les mariages.</p>
-                <button class="mt-4 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700">Louer</button>
-            </div>
-            <div class="bg-white text-gray-800 rounded-lg shadow-lg p-5 text-center">
-                <img src="https://source.unsplash.com/300x200/?unicorn,magic" alt="Licorne" class="rounded-md mx-auto">
-                <h2 class="text-2xl font-semibold mt-3">Licorne Céleste</h2>
-                <p class="mt-2">Majestueuse et paisible, parfaite pour une balade enchantée.</p>
-                <button class="mt-4 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700">Louer</button>
-            </div>
-            <div class="bg-white text-gray-800 rounded-lg shadow-lg p-5 text-center">
-                <img src="https://source.unsplash.com/300x200/?unicorn,fantasy" alt="Licorne" class="rounded-md mx-auto">
-                <h2 class="text-2xl font-semibold mt-3">Licorne Mystique</h2>
-                <p class="mt-2">Pleine de mystère, idéale pour les événements thématiques.</p>
-                <button class="mt-4 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700">Louer</button>
-            </div>
-        </div>
+    <nav class="bg-white text-gray-800 py-4 shadow-md">
+        <ul class="flex justify-center space-x-6">
+            <li><a href="#about" class="hover:text-purple-500">Qui sommes-nous ?</a></li>
+            <li><a href="#services" class="hover:text-purple-500">Nos services</a></li>
+            <li><a href="#contact" class="hover:text-purple-500">Nous contacter</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about" class="container mx-auto px-6 py-10 text-center">
+        <h2 class="text-3xl font-bold">Qui sommes-nous ?</h2>
+        <p class="mt-4">Nous sommes une entreprise spécialisée dans la location de licornes pour vos événements magiques. Nos licornes sont soigneusement sélectionnées pour garantir une expérience inoubliable.</p>
     </section>
-
+    
+    <section id="services" class="container mx-auto px-6 py-10 text-center">
+        <h2 class="text-3xl font-bold">Nos Services</h2>
+        <p class="mt-4">Nous proposons la location de licornes pour divers événements :</p>
+        <ul class="mt-4 space-y-2">
+            <li><strong>Mariages :</strong> Ajoutez une touche féerique à votre jour spécial.</li>
+            <li><strong>Anniversaires :</strong> Faites rêver petits et grands avec une licorne magique.</li>
+            <li><strong>Baptêmes :</strong> Rendez cet événement encore plus mémorable.</li>
+        </ul>
+    </section>
+    
+    <section id="contact" class="container mx-auto px-6 py-10 text-center">
+        <h2 class="text-3xl font-bold">Nous Contacter</h2>
+        <p class="mt-4">Remplissez le formulaire ci-dessous pour toute demande de renseignement :</p>
+        <form class="mt-6 bg-white text-gray-800 p-6 rounded-lg shadow-lg max-w-lg mx-auto">
+            <label class="block mb-2">Nom :</label>
+            <input type="text" class="w-full p-2 border rounded-md" placeholder="Votre nom">
+            
+            <label class="block mt-4 mb-2">Email :</label>
+            <input type="email" class="w-full p-2 border rounded-md" placeholder="Votre email">
+            
+            <label class="block mt-4 mb-2">Message :</label>
+            <textarea class="w-full p-2 border rounded-md" rows="4" placeholder="Votre message"></textarea>
+            
+            <button class="mt-4 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700">Envoyer</button>
+        </form>
+    </section>
+    
     <footer class="text-center py-5">
         <p>&copy; 2025 Location de Licornes - Magie et Merveilles à votre service</p>
     </footer>
